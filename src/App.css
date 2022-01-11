@@ -1,0 +1,47 @@
+body {
+  background-color: #311768;
+}
+
+.button {
+  padding: 10px 100px;
+  margin: 0 auto;
+  display: block;
+  font-size: 30px;
+  color: #fdfdfd;
+  background-color: #041050;
+  border: none;
+  border-radius: 5px;
+}
+
+.heading {
+  color: wheat;
+  font-size: 100px;
+  font-family: cursive;
+  text-align: center;
+  margin: 100px auto;
+  padding: 10px;
+}
+
+.heading--activ {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(254, 252, 247, 0.504981)), color-stop(55.94%, #050401));
+  background: linear-gradient(180deg, rgba(254, 252, 247, 0.504981) 0%, #050401 55.94%);
+  border-radius: 5px;
+}
+/*# sourceMappingURL=App.css.map */
